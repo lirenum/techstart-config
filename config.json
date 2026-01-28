@@ -1,4 +1,14 @@
 {
+  "apiUrl": "https://api.techstart.com",
+  "maxRetries": 3,
+  "timeout": 5000,
+  "requestTimeout": 8000,
+  "endpoints": {
+    "products": "/api/v1/products",
+    "orders": "/api/v1/orders"
+  }
+}
+{
 "apiUrl": "<https://api.techstart.com>",
 "maxRetries": 3, "timeout": 5000, "endpoints":
 {
